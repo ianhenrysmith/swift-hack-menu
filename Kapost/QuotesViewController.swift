@@ -25,31 +25,48 @@ class QuotesViewController: NSViewController {
         currentQuoteIndex = 0
     }
     
-    func updateQuote() {
-        textLabel.stringValue = String(quotes[currentQuoteIndex])
+    func setContent(jsonResult: NSData) {
+        var content = [String]()
+        print("setContent")
+        do {
+            let json = try NSJSONSerialization.JSONObjectWithData(jsonResult, options: .AllowFragments)
+            
+            if let posts = json["response"] as? [[String: AnyObject]] {
+                for post in posts {
+                    if let title = post["title"] as? String {
+                        content.append(title)
+                    }
+                }
+            }
+        } catch {
+            print("error serializing JSON: \(error)")
+        }
         
+        print(content) // ["Bloxus test", "Manila Test"]
+    }
+    
+    func fetchContent() {
         let url: NSURL = NSURL(string: "https://jammies.kpst.me/api/v1/content")!
         let request1: NSMutableURLRequest = NSMutableURLRequest(URL: url)
         
         request1.HTTPMethod = "GET"
-        [request setValue:@"Basic " forHTTPHeaderField:@"Authorization"];
-        [request setValue:@"your value" forHTTPHeaderField:@"for key"];//change this according to your need.
-        [request setHTTPBody:postData];
-
+        
         let queue:NSOperationQueue = NSOperationQueue()
         
         NSURLConnection.sendAsynchronousRequest(request1, queue: queue, completionHandler:{ (response: NSURLResponse?, data: NSData?, error: NSError?) -> Void in
             
             do {
-                if let jsonResult = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? NSDictionary {
-                    print("ASynchronous\(jsonResult)")
-                }
+                self.setContent(data!)
             } catch let error as NSError {
                 print(error.localizedDescription)
             }
-            
-            
         })
+    }
+    
+    func updateQuote() {
+        textLabel.stringValue = String(quotes[currentQuoteIndex])
+        
+        fetchContent()
     }
 
     @IBAction func goLeft(sender: NSButton) {
