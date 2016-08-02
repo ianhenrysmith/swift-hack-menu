@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
 options: "a200d349e306a52b81a4281be8226d29"
-build_time: [523472343, 985047000]
+build_time: [523477700, 201699000]
 inputs:
   "/Users/ian/kapost_menu/Kapost/Kapost/AppDelegate.swift": [523472340, 0]
-  "/Users/ian/kapost_menu/Kapost/Kapost/MenuViewController.swift": [523472333, 0]
+  "/Users/ian/kapost_menu/Kapost/Kapost/MenuViewController.swift": [523477697, 0]

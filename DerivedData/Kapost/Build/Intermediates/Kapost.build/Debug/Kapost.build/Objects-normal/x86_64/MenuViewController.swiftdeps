@@ -6,16 +6,16 @@ provides-nominal:
 provides-member:
 - ["C6Kapost18MenuViewController", ""]
 provides-dynamic-lookup:
+- "viewWillAppear"
 - "webView"
 - "updateQuote"
-- "viewWillAppear"
 depends-top-level:
-- "WebView"
-- "MenuViewController"
-- !private "NSURL"
-- "NSViewController"
 - !private "NSURLRequest"
+- !private "NSURL"
 - !private "StringLiteralType"
+- "NSViewController"
+- "MenuViewController"
+- "WebView"
 depends-member:
 - !private ["Ps9AnyObject", "NSURL"]
 - !private ["Ps9AnyObject", "NSURLRequest"]

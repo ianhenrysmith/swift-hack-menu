@@ -1,5 +1,5 @@
 //
-//  QuotesViewController.swift
+//  MenuViewController.swift
 //  Kapost
 //
 //  Created by Ian Smith on 8/1/16.
@@ -19,7 +19,7 @@ class MenuViewController: NSViewController {
     }
     
     func updateQuote() {
-        let url: NSURL = NSURL(string: "https://jammies.kpst.me/gallery")!
+        let url: NSURL = NSURL(string: "https://jammies.kpst.me/gallery/hack")!
         let request = NSURLRequest(URL: url)
         webView.mainFrame.loadRequest(request)
     }
