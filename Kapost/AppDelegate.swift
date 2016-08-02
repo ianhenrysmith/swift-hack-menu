@@ -22,7 +22,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.action = #selector(AppDelegate.togglePopover(_:))
         }
         
-        popover.contentViewController = QuotesViewController(nibName: "QuotesViewController", bundle: nil)
+        popover.contentViewController = MenuViewController(nibName: "MenuViewController", bundle: nil)
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {

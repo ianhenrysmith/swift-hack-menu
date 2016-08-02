@@ -1,0 +1,214 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MenuViewController"
+provides-nominal:
+- "C6Kapost18MenuViewController"
+provides-member:
+- ["C6Kapost18MenuViewController", ""]
+provides-dynamic-lookup:
+- "webView"
+- "updateQuote"
+- "viewWillAppear"
+depends-top-level:
+- "WebView"
+- "MenuViewController"
+- !private "NSURL"
+- "NSViewController"
+- !private "NSURLRequest"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "NSURLRequest"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadRequest"]
+- !private ["Ps9AnyObject", "mainFrame"]
+- ["Ps9AnyObject", "updateQuote"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", "webView"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "NSURL"]
+- !private ["Ps11CVarArgType", "NSURLRequest"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "loadRequest"]
+- !private ["Ps11CVarArgType", "mainFrame"]
+- ["Ps11CVarArgType", "updateQuote"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", "webView"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURLRequest"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "loadRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "mainFrame"]
+- ["Ps28CustomDebugStringConvertible", "updateQuote"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", "webView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "NSURLRequest"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "loadRequest"]
+- !private ["Ps23CustomStringConvertible", "mainFrame"]
+- ["Ps23CustomStringConvertible", "updateQuote"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", "webView"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "NSURLRequest"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "loadRequest"]
+- !private ["Ps9Equatable", "mainFrame"]
+- ["Ps9Equatable", "updateQuote"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", "webView"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "NSURLRequest"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "loadRequest"]
+- !private ["Ps8Hashable", "mainFrame"]
+- ["Ps8Hashable", "updateQuote"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", "webView"]
+- ["Ps8Hashable", ""]
+- !private ["C6Kapost18MenuViewController", "NSURL"]
+- !private ["C6Kapost18MenuViewController", "NSURLRequest"]
+- ["C6Kapost18MenuViewController", "WebView"]
+- ["C6Kapost18MenuViewController", "deinit"]
+- ["C6Kapost18MenuViewController", "init"]
+- ["C6Kapost18MenuViewController", "updateQuote"]
+- ["C6Kapost18MenuViewController", "viewWillAppear"]
+- ["C6Kapost18MenuViewController", "webView"]
+- !private ["PSo15NSAccessibility", "mainFrame"]
+- !private ["PSo30NSAccessibilityElementProtocol", "mainFrame"]
+- !private ["PSo29NSAnimatablePropertyContainer", "mainFrame"]
+- !private ["PSo25NSAppearanceCustomization", "mainFrame"]
+- !private ["PSo8NSCoding", "NSURL"]
+- !private ["PSo8NSCoding", "NSURLRequest"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "mainFrame"]
+- ["PSo8NSCoding", "updateQuote"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", "webView"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo21NSDraggingDestination", "mainFrame"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURLRequest"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "updateQuote"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", "webView"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "NSURLRequest"]
+- ["CSo8NSObject", "WebView"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "loadRequest"]
+- !private ["CSo8NSObject", "mainFrame"]
+- ["CSo8NSObject", "updateQuote"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["CSo8NSObject", "webView"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "NSURLRequest"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "loadRequest"]
+- !private ["PSo16NSObjectProtocol", "mainFrame"]
+- ["PSo16NSObjectProtocol", "updateQuote"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "webView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["CSo11NSResponder", "NSURL"]
+- !private ["CSo11NSResponder", "NSURLRequest"]
+- ["CSo11NSResponder", "WebView"]
+- ["CSo11NSResponder", "init"]
+- !private ["CSo11NSResponder", "mainFrame"]
+- ["CSo11NSResponder", "updateQuote"]
+- ["CSo11NSResponder", "viewWillAppear"]
+- ["CSo11NSResponder", "webView"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo17NSSeguePerforming", "NSURL"]
+- !private ["PSo17NSSeguePerforming", "NSURLRequest"]
+- ["PSo17NSSeguePerforming", "init"]
+- ["PSo17NSSeguePerforming", "updateQuote"]
+- ["PSo17NSSeguePerforming", "viewWillAppear"]
+- ["PSo17NSSeguePerforming", "webView"]
+- ["PSo17NSSeguePerforming", ""]
+- !private ["CSo5NSURL", "init"]
+- !private ["PSo17NSURLHandleClient", "init"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "NSURL"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "NSURLRequest"]
+- ["PSo33NSUserInterfaceItemIdentification", "init"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "mainFrame"]
+- ["PSo33NSUserInterfaceItemIdentification", "updateQuote"]
+- ["PSo33NSUserInterfaceItemIdentification", "viewWillAppear"]
+- ["PSo33NSUserInterfaceItemIdentification", "webView"]
+- ["PSo33NSUserInterfaceItemIdentification", ""]
+- !private ["PSo26NSUserInterfaceValidations", "mainFrame"]
+- !private ["CSo6NSView", "mainFrame"]
+- !private ["CSo16NSViewController", "NSURL"]
+- !private ["CSo16NSViewController", "NSURLRequest"]
+- ["CSo16NSViewController", "WebView"]
+- ["CSo16NSViewController", "init"]
+- ["CSo16NSViewController", "updateQuote"]
+- ["CSo16NSViewController", "viewWillAppear"]
+- ["CSo16NSViewController", "webView"]
+- ["CSo16NSViewController", ""]
+- !private ["CSo8WebFrame", "loadRequest"]
+- !private ["CSo7WebView", "mainFrame"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "mainFrame"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C6Kapost18MenuViewController"
+- !private "PSo15NSAccessibility"
+- !private "PSo30NSAccessibilityElementProtocol"
+- !private "PSo29NSAnimatablePropertyContainer"
+- !private "PSo25NSAppearanceCustomization"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo21NSDraggingDestination"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- "CSo11NSResponder"
+- !private "PSo14NSSecureCoding"
+- "PSo17NSSeguePerforming"
+- !private "CSo5NSURL"
+- !private "PSo17NSURLHandleClient"
+- !private "CSo12NSURLRequest"
+- "PSo33NSUserInterfaceItemIdentification"
+- !private "PSo26NSUserInterfaceValidations"
+- !private "CSo6NSView"
+- "CSo16NSViewController"
+- !private "CSo8WebFrame"
+- !private "CSo7WebView"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+interface-hash: "fbd2e8426558ad57329fd2c01afb5102"
